@@ -1,12 +1,14 @@
 from flask import Flask, render_template
-from database import get_views
+from database import get_views, get_authors, error_percentage
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
    most_viewers = get_views()
-   return render_template('index.html', results = most_viewers)
+   authors = get_authors()
+   percentage = error_percentage()
+   return render_template('index.html', results = most_viewers, authors= authors, percentage = percentage)
 
 
 if __name__ == '__main__':

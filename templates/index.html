@@ -1,20 +1,22 @@
-<!doctype html>
-<html>
-   <body>
-      <div style="width: 80%; margin: 0 auto;">
-            <h2> Welcome to the Log Analysis project on Udacity</h2>
-            <fieldset>
-               <legend>Most popular three articles of all time</legend>
+<!doctype html >
+<html >
+    <body >
+        <div style = "width: 80%; margin: 0 auto;" >
+            <h2 > Welcome to the Log Analysis project on Udacity </h2 >
+            <fieldset >
+                 <legend> Most popular three articles of all time </legend >
                  
-                 {% for result in results %}
-                    <ul>
-                       <li>
-                           <span>"{{result[0]}}"</span> - 
-                           <span>{{result[1]}} views</span>
-                       </li>
-                    </ul>
-                 {% endfor %}
-            </fieldset>
+               {% for result in results %}
+                  <ul>
+                      <li>
+                          <span>"{{result[0]}}"</span> - 
+                          <span>{{result[1]}} views</span>
+                      </li>
+                  </ul>
+               {% endfor %}
+             </fieldset>
+
+
             <fieldset>
                <legend>Most popular article authors of all time</legend>
                
@@ -39,6 +41,6 @@
                      </ul>
                   {% endfor %}
             </fieldset>
-      </div>
-   </body>
+        </div>
+    </body>
 </html>

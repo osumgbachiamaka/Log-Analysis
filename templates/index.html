@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+   <body>
+   
+      <table>
+        <thead>
+           <td>Title</td>
+           <td>Views</td>
+        </thead>
+        
+        {% for result in results %}
+           <tr>
+              <td>{{result[0]}}</td>
+              <td>{{result[1]}}</td>	
+           </tr>
+        {% endfor %}
+     </table>
+      
+   </body>
+</html>

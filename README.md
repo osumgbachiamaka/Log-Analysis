@@ -78,3 +78,9 @@ Run the app using:
 ```python
   open http://localhost:8000/
 ```
+## Author
+This project was created and built by Osumgba Chiamaka popularly known as pearl in the tech community
+https://www.linkedin.com/in/chiamaka-osumgba/ 
+https://web.facebook.com/osumgba.chiamaka
+https://twitter.com/KindnessOsumgba
+https://www.instagram.com/kindnessosumgba/

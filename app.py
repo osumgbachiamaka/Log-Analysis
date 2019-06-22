@@ -11,7 +11,7 @@ def index():
     authors = get_authors()
     percentage = error_percentage()
     return render_template('index.html', results=most_viewers,
-        authors=authors, percentage=percentage)
+                           authors=authors, percentage=percentage)
 
 
 if __name__ == '__main__':

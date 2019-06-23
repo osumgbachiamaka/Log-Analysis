@@ -5,9 +5,6 @@ An internal reporting tool that will use information from the database to discov
 Your task is to create a reporting tool that prints out reports (in plain text) based on the data in the database. 
 This reporting tool is a Python program using the psycopg2 module to connect to the database.
 
-## Installing the Virtual Machine
-In the next part of this course, you'll use a virtual machine (VM) to run an SQL database server and a web app that uses it. The VM is a Linux server system that runs on top of your own computer. You can share files easily between your computer and the VM; and you'll be running a web service inside the VM which you'll be able to access from your regular browser.
-
 We're using tools called Vagrant and VirtualBox to install and manage the VM. You'll need to install these to do some of the exercises. The instructions on this page will help you do this.
 
 ## Install VirtualBox

@@ -10,8 +10,11 @@ We're using tools called Vagrant and VirtualBox to install and manage the VM. Yo
 ## Author
 This project was created and built by Osumgba Chiamaka popularly known as pearl in the tech community
 https://www.linkedin.com/in/chiamaka-osumgba/ 
+
 https://web.facebook.com/osumgba.chiamaka
+
 https://twitter.com/KindnessOsumgba
+
 https://www.instagram.com/kindnessosumgba/
 
 ## Install VirtualBox

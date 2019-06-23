@@ -7,6 +7,13 @@ This reporting tool is a Python program using the psycopg2 module to connect to 
 
 We're using tools called Vagrant and VirtualBox to install and manage the VM. You'll need to install these to do some of the exercises. The instructions on this page will help you do this.
 
+## Author
+This project was created and built by Osumgba Chiamaka popularly known as pearl in the tech community
+https://www.linkedin.com/in/chiamaka-osumgba/ 
+https://web.facebook.com/osumgba.chiamaka
+https://twitter.com/KindnessOsumgba
+https://www.instagram.com/kindnessosumgba/
+
 ## Install VirtualBox
 VirtualBox is the software that actually runs the virtual machine. You can download it from virtualbox.org, here. Install the platform package for your operating system. You do not need the extension pack or the SDK. You do not need to launch VirtualBox after installing it; Vagrant will do that.
 
@@ -75,9 +82,3 @@ Run the app using:
 ```python
   open http://localhost:8000/
 ```
-## Author
-This project was created and built by Osumgba Chiamaka popularly known as pearl in the tech community
-https://www.linkedin.com/in/chiamaka-osumgba/ 
-https://web.facebook.com/osumgba.chiamaka
-https://twitter.com/KindnessOsumgba
-https://www.instagram.com/kindnessosumgba/
